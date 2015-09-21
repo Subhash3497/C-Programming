@@ -8,8 +8,19 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main(int argc, const char * argv[])
+{
+    //Variables
+    int days;
+    int flights;
+    int distance;
+    int average;
+
+    //Assignment
+    for (<#initialization#>; <#condition#>; <#increment#>) {
+        <#statements#>
+    }
+
+
     return 0;
 }
