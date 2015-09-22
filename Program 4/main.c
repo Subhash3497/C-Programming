@@ -21,17 +21,23 @@ int main(int argc, const char * argv[])
     printf("How many days has your dragon been practicing?\n");
     scanf("%d",&days_input);
 
-    for (days = 1; days <= days_input; days++) {
+    for (days = 1; days <= days_input; days++)
+    {
         printf("How many flights were completed in day %d\n",days);
         scanf("%d",&flights_input);
-        for (flights = 1; flights <= flights_input; flights++) {
+
+        for (flights = 1; flights <= flights_input; flights++)
+        {
             printf("How long was flight %d\n",flights);
-            scanf("%f",&distance_input);
-
-
+            scanf("%d",&distance);
         }
 
     }
+
+
+
+
+
 
 
 
