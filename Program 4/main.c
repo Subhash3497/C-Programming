@@ -11,32 +11,32 @@
 int main(int argc, const char * argv[])
 {
     //Variables
-    int days;
-    int flights;
-    float distance [5] = {};
+    int days, days_input;
+    int flights, flights_input;
+    float distance, distance_input;
     int average;
 
 
-
-
     //Assignment
-    for (printf("How man days has your dragon been practicing?\n"),scanf("%d",&days); days != 0; days--)
-    {
-        for (printf("How many flights were completed on day %d\n",days), scanf("%d",&flights); flights != 0; flights--)
-        {
-            for (printf("How long was flight %d\n",flights), scanf("%f",&distance); ;) {
-                break;
+    printf("How many days has your dragon been practicing?\n");
+    scanf("%d",&days_input);
 
+    for (days = 1; days <= days_input; days++) {
+        printf("How many flights were completed in day %d\n",days);
+        scanf("%d",&flights_input);
+        for (flights = 1; flights <= flights_input; flights++) {
+            printf("How long was flight %d\n",flights);
+            scanf("%f",&distance_input);
 
-            }
 
         }
 
-
-
-
-
     }
+
+
+
+
+
 
 
     return 0;
